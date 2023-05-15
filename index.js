@@ -25,6 +25,7 @@ const generateId = () => {
 };
 
 app.use(express.json());
+app.use(express.static('build'));
 app.use(cors());
 
 app.get('/', (req, res) => {
