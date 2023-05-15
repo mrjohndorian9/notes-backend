@@ -1,0 +1,7 @@
+POST http://localhost:3001/notes 
+Content-type: application/json
+
+{
+	"content": "something",
+	"important": true
+}
